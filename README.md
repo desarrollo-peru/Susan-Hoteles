@@ -2,6 +2,38 @@
   <img src="https://cdn.rawgit.com/saintplay/susan/master/src/main/resources/static/img/susan.svg" width="600">
 </div>
 
+## Funcionalidades ##
+
+### Usuario ###
+
+- Búsqueda de hoteles mediante nombre
+- Búsqueda de hoteles mediante filtros
+- Reservar múltiples cuartos
+- Revisar reservas actuales
+- Cancelar reservas actuales
+- Recibir notificación cuando se acerca límite en fecha de pago
+
+### Administrador ###
+
+- Agregar Hoteles
+- Ver Reportes por Hoteles
+- Dar de baja a hoteles
+- Dar de baja a usuarios
+
+### Hotelero ###
+
+- Agregar cuartos
+- Actualizar información de cuartos
+- Recibir notificación cuando un usuario reserva
+- Recibir una notificación cuando un usuario cancela la reserva
+- Recibir una notificación cuando un usuario no paga la reserva a tiempo
+- Recibir una notificación cuando un usuario paga la reseva
+- Agregar espacios del hotel
+- Consultar personal
+- Consultar cuartos disponibles en tiempo real
+- Consultar estadísticas del uso de cuartos
+
+
 ## PASOS PARA INICIAR SUSAN ##
 
 ### 1. USANDO SPRING TOOL SUIT (STS) ###
@@ -33,13 +65,3 @@
 4. `mvn package` (*ejecutar despues de cambiar el código*) 
 5. `heroku local -f Procfile.windows`
 6. **Listo!** El proyecto utilizará¡ el puerto 3000 por defecto; para acceder a la aplicación entrar a <http://localhost:3000/> en un navegador.
-
-2017
-2018
-2010
-2011
-2012
-
-<div align="center">
-  <img src="https://cloud.githubusercontent.com/assets/9372893/16879913/501dca4a-4a78-11e6-9783-3600e0b260d8.png">
-</div>
